@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/css?family=Teko);
+
+body{
+    font-family: 'Teko', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.home{
+    position: relative;
+    top: 0;
+    height: 570px;
+}
+
+.skills, .work{
+    position: relative;
+    top: 0;
+    height: 650px;
+}
+
+.contact{
+    height: 200px;
+}
+
+.home #left{
+    background: #b1c6ba;
+    height: 570px;
+}
+
+.home #right{
+    background: #ede7e3;
+    height: 570px;
+}
+
+.home #right .p-container{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home #right p{
+    font-size: 6vh;
+}
+
+.home #left img{
+    height: 350px;
+    opacity: .9;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 5px #a1b5a9;
+}
+
+.home #left h1{
+    float: left;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    color: #f4f4f4;
+    font-size: 4em;
+}
+
+.skills #left{
+    background: #ede7e3;
+    height: 650px;
+}
+
+.skills #right{
+    background: #c15757;
+    height: 650px;
+}
+
+.skills p{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vh; 
+    width: 70%;
+}
+
+.skills #images{
+    position: relative;
+    float: left;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills img{
+    height: 160px;
+    margin-top: 25px;
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    box-shadow: 4px 6px #b75050;
+    border: 2px solid white;
+}
+
+.skills img:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.skills-list{
+    float: left;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.progress{
+    border-radius: 5px;
+    border: none;
+    background: #f9f9f9;
+    height: 30px;
+}
+.progress-bar{   
+    text-align: left;
+    font-size: 3vh;
+    background: #635856;
+    border-radius: none;
+}   
+
+.progress p{
+    margin: 2%;
+    letter-spacing: 1px;
+}
+
+.work #left{
+    background: #5c6f7c;
+    height: 650px;
+}
+
+.work #right{
+    background: #ede7e3;
+    height: 650px;
+}
+
+.contact #left{
+    background: #ede7e3;
+    height: 200px;
+}
+
+.contact #right{
+    background: #efb577;
+    height: 200px;
+}
+
+.contact p{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4vh;
+}
+
+.icon-holder{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;    
+    text-decoration: none;
+}

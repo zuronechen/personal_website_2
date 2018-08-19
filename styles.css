@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Teko);
 
 @media screen and (max-width: 771px) {
-    #left, #right{
-        height: auto;
+    .skills #left{
+        display: none;
     }
 }
 

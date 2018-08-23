@@ -12,6 +12,7 @@ body{
     overflow-x: hidden;
     width: 100%;
     height: 100%;
+    background: #ede7e3;
 }
 
 .container{
@@ -42,7 +43,6 @@ body{
 }
 
 .home #right{
-    background: #ede7e3;
     height: 570px;
 }
 
@@ -80,10 +80,6 @@ body{
     font-size: 4em;
 }
 
-
-.skills #left{
-    background: #ede7e3;
-}
 
 .skills #right{
     background: #c15757;
@@ -157,12 +153,7 @@ body{
     
 }
 
-.work #right{
-    background: #ede7e3;
-}
-
 .contact #left{
-    background: #ede7e3;
     height: 200px;
 }
 
